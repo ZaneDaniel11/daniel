@@ -1,13 +1,13 @@
 <?php
-    session_start();
+    // session_start();
 
-    if (isset($_SESSION['username'])) {
-        echo "Welcome, " . $_SESSION['username'] . "!<br>";
-        echo '<a href="logout.php">Logout</a>';
-    } else {
-        header("Location: login.php");
-        exit();
-    }
+    // if (isset($_SESSION['username'])) {
+    //     echo "Welcome, " . $_SESSION['username'] . "!<br>";
+    //     echo '<a href="logout.php">Logout</a>';
+    // } else {
+    //     header("Location: login.php");
+    //     exit();
+    // }
 ?>
 <!DOCTYPE html>
 
